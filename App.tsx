@@ -36,7 +36,7 @@ import {
   Wand2
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { getIntentionSuggestions } from './services/geminiService';
+import { getIntentionSuggestions } from './geminiService';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
